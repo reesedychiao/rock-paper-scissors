@@ -1,3 +1,6 @@
+# Print something to test if it's working.
+# print to screen
+
 # Ask user for their choice
 # (Get user input python 2)
 
