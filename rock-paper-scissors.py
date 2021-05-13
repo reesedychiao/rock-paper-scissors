@@ -39,7 +39,7 @@ def play(score):
 	else:
 		print("Try again :(")
 
-	print("Your score: " + str(score["computer"]) + " \nComputer's score: " + str(score["user"]) + "")
+	print("Your score: " + str(score["user"]) + " \nComputer's score: " + str(score["computer"]) + "")
 
 	play(score)
 
