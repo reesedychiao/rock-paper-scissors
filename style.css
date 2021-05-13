@@ -1,0 +1,49 @@
+body {
+  /* Change the background color */
+}
+
+body.play {
+  /* Change the background color of the play page only */
+}
+
+.play-button {
+  /* The play button */
+  /* Your design might be hard but if you're up for a challenge go for it! */
+}
+
+.instruction-step {
+  /* This targets ALL the instruction steps */
+  /* For your design you will have to learn the difference between margin and padding. */
+}
+
+.instruction-step h3 {
+  /* This is the number of each instruction step but won't change other h3's */
+  margin: 0;
+}
+
+.counter {
+  /* General styles for the compuer's choice. Size, background color etc. Applies to any of the choices */
+}
+
+.rock {
+  /* If your image for the user and computer choice is the same rock then you can just use .rock and the image will show up both places */
+  /* Use background-image */
+}
+
+/* If you have a different image for the computer then use these  */
+.counter.rock {
+  /* When the computer chooses rock add the image */
+}
+
+.counter.paper {
+  /* When the computer chooses paper add the image */
+}
+
+.scoreboard {
+  /* The overall scoreboard */
+}
+
+.score {
+  /* Applies to both the user and computer score */
+  /* This is where you will add a yellow border for example */
+}
