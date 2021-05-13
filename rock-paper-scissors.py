@@ -1,7 +1,9 @@
+import random
+
 print("hello")
+print("Type exit to end the game.")
 
 score = {"user":0, "computer":0}
-
 
 def play(score):
 	weapon = raw_input("Rock, paper, or scissors? ")
@@ -10,11 +12,9 @@ def play(score):
 	if (weapon == 'exit'):
 		exit()
 
-	import random
 	options = ['rock', 'paper', 'scissors']
 	counter = random.choice(options)
 	print("The computer chooses " + counter + ".")
-
 
 	if weapon == counter :
 		print("We have a tie!")
@@ -39,15 +39,8 @@ def play(score):
 	else:
 		print("Try again :(")
 
-	raw_user_score = int(score["user"])
-	user_string = str(raw_user_score)
+	print("Your score: " + str(score["computer"]) + " \nComputer's score: " + str(score["user"]) + "")
 
-	raw_computer_score = int(score["computer"])
-	computer_string = str(raw_computer_score)
-
-	print("Your score: " + user_string + " \nComputer's score: " + computer_string + "")
-
-
-	play (score)
+	play(score)
 
 play(score)
