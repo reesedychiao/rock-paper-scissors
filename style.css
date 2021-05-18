@@ -1,28 +1,75 @@
 body {
   /* Change the background color */
+  background-image: radial-gradient(400px circle at bottom, rgb(128,128,0,0.4), rgb(128,0,128,0.5), rgb(0,0,0,0.9));
 }
 
 body.play {
   /* Change the background color of the play page only */
+  background-image: radial-gradient(400px circle at bottom right, rgb(128,128,0,0.4), rgb(128,0,128,0.5), rgb(0,0,0,0.9));
 }
 
 .play-button {
   /* The play button */
   /* Your design might be hard but if you're up for a challenge go for it! */
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-left: 65px solid rgb(128,0,128,0.9);
+  border-bottom: 40px solid transparent;
+  position: absolute;
+  top: 150;
+  right: 250;
 }
 
 .instruction-step {
   /* This targets ALL the instruction steps */
   /* For your design you will have to learn the difference between margin and padding. */
+  box-sizing: border-box;
+  height: 34%;
+  width: 180%;
+  border: 1px solid rgb(255,255,0,0.8);
+  margin-left: 320;
+  color: rgb(255,255,0,0.8);
+  font-size: 30px;
+}
+
+.instruction-step.first {
+  margin-top: -290;
 }
 
 .instruction-step h3 {
   /* This is the number of each instruction step but won't change other h3's */
   margin: 0;
+  color: white;
+  font-size: 30px;
+}
+
+.steps {
+  box-sizing: border-box;
+  height: 35%;
+  width: 25%;
+  border: 1px solid rgb(255,255,0,0.8);
+  margin-top: 50;
+  margin-left: 150;
+}
+
+.steps h2 {
+  color: white;
+  font-size: 60px;
+  margin-left: 5;
+  margin-top: 100;
+}
+
+.home h1 {
+  color: rgb(255,255,0,0.8);
+  font-size: 70px;
+  margin-left: 150;
+  margin-top: 200;
 }
 
 .counter {
   /* General styles for the compuer's choice. Size, background color etc. Applies to any of the choices */
+
 }
 
 .rock {
