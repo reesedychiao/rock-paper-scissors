@@ -69,12 +69,14 @@ body.play {
 
 .counter {
   /* General styles for the compuer's choice. Size, background color etc. Applies to any of the choices */
-
 }
 
 .rock {
   /* If your image for the user and computer choice is the same rock then you can just use .rock and the image will show up both places */
   /* Use background-image */
+  background-image: url(pics/rock.png);
+  height: 100;
+  width: 100;
 }
 
 /* If you have a different image for the computer then use these  */
@@ -88,6 +90,14 @@ body.play {
 
 .scoreboard {
   /* The overall scoreboard */
+  box-sizing: border-box;
+  height: 15%;
+  width: 30%;
+  border: 1px solid rgb(255,255,0,0.8);
+  margin-left: 800;
+  margin-top: -150;
+  color: rgb(255,255,0,0.8);
+  font-size: 30px;
 }
 
 .score {
